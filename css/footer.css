@@ -1,0 +1,166 @@
+footer{
+    position: relative;
+    background: #000;
+    padding: 80px 50px 40px;
+    margin-top: 100px;
+}
+
+footer .start{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    background-color: #ffb742;
+    padding: 30px 25px;
+    border-radius: 15px;
+    width: 70%;
+    top: -16%;
+    left: 15%;
+}
+
+footer .start p{
+    font-size: 17px;
+    width: 35%;
+}
+
+footer .start button{
+    background: transparent;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+
+footer .start button:hover{
+    background-color: #ffb742;
+    border-color: #000;
+}
+
+footer .col{
+    display: flex;
+    align-items: start;
+}
+
+footer .col .about-col{
+    flex: 3;
+}
+
+footer .col .about-col h3{
+    color: #ffb742;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+
+footer .col .about-col p{
+    color: #fff;
+    font-size: 17px;
+}
+
+footer .col .links-col{
+    flex: 3;
+}
+
+footer .col .links-col h4, footer .col h4{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+
+footer .col .links-col a{
+    display: block;
+    text-decoration: none;
+    color: #7b7b7b;
+    font-size: 17px;
+    line-height: 35px;
+    transition: color 0.3s ease;
+}
+
+footer .col .links-col a:hover{
+    color: #ffb742;
+}
+
+@media screen and (max-width: 1100px) {
+    footer{
+        margin-top: 150px;
+    }
+
+    footer .start{
+        width: 90%;
+        left: 5%;
+        top: -20%;
+    }
+
+    footer .col{
+        flex-wrap: wrap;
+    }
+
+    footer .col .about-col{
+        flex-basis: 50%;
+    }
+
+    footer .col .links-col{
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    footer .start{
+        top: -8%;
+    }
+
+    footer .start p{
+        display: none;
+    }
+
+    footer .col .about-col{
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+
+    footer .col .links-col{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.copyright {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.copyright p {
+    color: #8d8d8d;
+    font-weight: bold;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.copyright a {
+    color: #A56E64;
+    text-decoration: none;
+}
+
+.copyright a:visited {
+    color: #A56E64;
+    text-decoration: none;
+}
+
+.copyright a:active {
+    color: #A56E64;
+    text-decoration: none;
+}
+
+.copyright a:hover {
+    color: #A56E64;
+    text-decoration: none;
+}
+
+.highlighted {
+    color: #A56E64;
+    font-weight: bold;
+}

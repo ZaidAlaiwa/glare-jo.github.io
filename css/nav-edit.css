@@ -1,0 +1,25 @@
+.nav-edit {
+    background-color: #000;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.nav-edit a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-edit a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+
+.nav-edit a:active {
+    color: #A56E64;
+    text-decoration: none;
+}
+
+.nav-edit a:hover {
+    color: #A56E64;
+    text-decoration: none;
+}
