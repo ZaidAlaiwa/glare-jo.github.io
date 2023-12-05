@@ -33,3 +33,13 @@
     margin-left: 10%;
   }
 }
+
+.additional-br {
+  display: none;
+}
+
+@media screen and (max-width: 346px) {
+  .additional-br {
+      display: block;
+  }
+}
