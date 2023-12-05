@@ -27,13 +27,6 @@
   margin: auto;
 }
 
-@media screen and (max-width: 1250px) {
-  .logo-overlay img {
-    width: 80%;
-    margin-left: 10%;
-  }
-}
-
 .additional-br {
   display: none;
 }
