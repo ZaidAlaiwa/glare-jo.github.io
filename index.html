@@ -12,19 +12,18 @@
         <link rel="stylesheet" href="css/nav-edit.css">
         <link rel="stylesheet" href="css/carousel-edit.css">
         <link rel="stylesheet" href="css/footer.css">
-        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body style="background-color: #000;">
         <nav>
-            <ul class="nav justify-content-center fixed-top nav-edit">
+            <ul class="nav justify-content-center nav-edit">
                 <li class="nav-item">
                     <a class="nav-link" style="color: #A56E64" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pages/about.html">About Us</a>
+                    <a class="nav-link" href="about.html">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pages/contact.html">Contact Us</a>
+                    <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
             </ul>
         </nav>
@@ -41,21 +40,33 @@
                     <div class="carousel-item active">
                         <div class="d-flex align-items-center justify-content-center aspect-ratio-container">
                             <img src="assets/1.jpg" class="d-block w-100 aspect-ratio-item" alt="...">
+                            <div class="logo-overlay">
+                                <img src="assets/logo.png" alt="Logo">
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="d-flex align-items-center justify-content-center aspect-ratio-container">
                             <img src="assets/2.jpg" class="d-block w-100 aspect-ratio-item" alt="...">
+                            <div class="logo-overlay">
+                                <img src="assets/logo.png" alt="Logo">
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="d-flex align-items-center justify-content-center aspect-ratio-container">
                             <img src="assets/3.jpg" class="d-block w-100 aspect-ratio-item" alt="...">
+                            <div class="logo-overlay">
+                                <img src="assets/logo.png" alt="Logo">
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="d-flex align-items-center justify-content-center aspect-ratio-container">
                             <img src="assets/4.png" class="d-block w-100 aspect-ratio-item" alt="...">
+                            <div class="logo-overlay">
+                                <img src="assets/logo.png" alt="Logo">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -67,7 +78,7 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-            </div>              
+            </div>
         </header>
 
 
@@ -309,6 +320,8 @@
                 <a href="tel:00962791177000"><button>Call Us</button></a>
             </div>
 
+            <br>
+
             <div class="col">
                 <div class="about-col">
                     <h3>Glare Jordan</h3>
@@ -316,10 +329,10 @@
                 </div>
 
                 <div class="links-col">
-                    <h4>Useful Links</h4>
-                    <a href="#">Home</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Contact Us</a>
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact Us</a>
                 </div>
 
                 <div class="links-col">
@@ -327,10 +340,16 @@
                     <a href="#">Facebook</a>
                     <a href="#">Instagram</a>
                 </div>
+
+                <div class="links-col">
+                    <h4>Contact</h4>
+                    <a href="tel:00962791177000">00962 791177000</a>
+                    <a href="mailto:info@glare-jo.com">info@glare-jo.com</a>
+                </div>
             </div>
         </footer>
         <div class="copyright">
-            <p>Designed By: <a href="https://www.facebook.com/Zaid.Zghoul.2002.SS/" target="_blank" class="highlighted">Zaid Alaiwa</a> - Copyright &copy; <span id="currentYear"></span> <span class="highlighted">Glare Jordan</span> | All rights reserved.</p>
+            <p>Designed By <a href="https://www.facebook.com/Zaid.Zghoul.2002.SS/" target="_blank" class="highlighted">Zaid Alaiwa</a> | Copyright &copy; <span id="currentYear"></span> <span class="highlighted">Glare Jordan</span> - All rights reserved.</p>
         </div>
         <!-- Update the current year dynamically-->
         <script>document.getElementById('currentYear').innerText = new Date().getFullYear();</script>
