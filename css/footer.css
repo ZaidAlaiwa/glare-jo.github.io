@@ -10,7 +10,7 @@ footer .start{
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    background-color: #ffb742;
+    background-color: #A56E64;
     padding: 30px 25px;
     border-radius: 15px;
     width: 70%;
@@ -33,7 +33,7 @@ footer .start button{
 }
 
 footer .start button:hover{
-    background-color: #ffb742;
+    background-color: #A56E64;
     border-color: #000;
 }
 
@@ -47,7 +47,7 @@ footer .col .about-col{
 }
 
 footer .col .about-col h3{
-    color: #ffb742;
+    color: #A56E64;
     margin-bottom: 20px;
     font-size: xx-large;
 }
@@ -77,7 +77,7 @@ footer .col .links-col a{
 }
 
 footer .col .links-col a:hover{
-    color: #ffb742;
+    color: #A56E64;
 }
 
 @media screen and (max-width: 1100px) {
