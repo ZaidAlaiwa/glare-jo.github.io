@@ -48,7 +48,7 @@ footer .start a{
     text-decoration: none;
 }
 
-footer .start a:hover{
+footer .start a:visited{
     color: #000;
     text-decoration: none;
 }
@@ -58,7 +58,7 @@ footer .start a:active{
     text-decoration: none;
 }
 
-footer .start a:visited{
+footer .start a:hover{
     color: #000;
     text-decoration: none;
 }
