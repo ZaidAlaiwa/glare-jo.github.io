@@ -15,26 +15,31 @@
         <link rel="stylesheet" href="css/footer.css">
     </head>
     <body style="background-color: #000;">
-        <nav>
-            <ul class="nav justify-content-center nav-edit fixed-top">
-                <li class="nav-item">
-                    <a class="nav-link" style="color: #A56E64" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg fixed-top nav-edit">
+            <div class="container-fluid">
+                <a class="navbar-brand" style="color: #A56E64" href="index.html" aria-current="page">Glare Jordan</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: #A56E64" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
         
         <header>
             <div>
                 <br><br><br><br>
-            </div>
-            <div class="additional-br">
-                <br><br>
             </div>
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-touch="false">
                 <!--
@@ -192,7 +197,7 @@
 
                 <div class="links-col">
                     <h4>Quick Links</h4>
-                    <a href="index.html">Home</a>
+                    <a href="index.html" aria-current="page">Home</a>
                     <a href="about.html">About Us</a>
                     <a href="contact.html">Contact Us</a>
                 </div>

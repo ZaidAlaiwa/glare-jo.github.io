@@ -26,13 +26,3 @@
   width: 100%;
   margin: auto;
 }
-
-.additional-br {
-  display: none;
-}
-
-@media screen and (max-width: 346px) {
-  .additional-br {
-      display: block;
-  }
-}
