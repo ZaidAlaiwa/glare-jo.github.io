@@ -31,16 +31,22 @@ footer .start button{
     padding: 8px 20px;
     border-radius: 100px;
     transition: all 0.3s ease;
+    color: #000;
+    transition-duration: 0.4s;
 }
 
 footer .start button:hover{
-    background-color: #92574d;
+    background-color: #814c43;
     border-color: #000;
+    color: #000;
+    text-decoration: none;
 }
 
 footer .start button:active{
     background-color: #92574d;
     border-color: #000;
+    color: #000;
+    text-decoration: none;
 }
 
 footer .start a{
