@@ -28,3 +28,10 @@
 .navbar-toggler-icon {
     filter: brightness(5000%);
 }
+
+.navbar ul {
+    margin-left: -50px;
+}
+.navbar li {
+    padding-right: 50px;
+}
