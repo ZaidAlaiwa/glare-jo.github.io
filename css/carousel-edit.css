@@ -23,14 +23,12 @@
 }
 
 .logo-overlay img {
-  width: 100%;
-  margin: auto;
+  width: 70%;
+  margin-left: 15%;
 }
 
 .logo-overlay h4 {
-  background-color: #92574d75;
-  border-radius: 10px;
-  color: #000;
+  color: #fff;
   text-align: center;
   font-size: xx-large;
   margin-top: 1.6vw;
@@ -40,6 +38,6 @@
 
 @media screen and (max-width: 850px) {
   .logo-overlay h4 {
-    font-size: medium;
+    font-size: large;
   }
 }
