@@ -1,3 +1,32 @@
+.services-cards h1 {
+    color: #92574d;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: xx-large;
+    text-shadow: 2px 2px 2px rgba(92, 76, 76, 0.97);
+    padding-top: 15px;
+}
+
+.services-cards hr {
+    color: #fff;
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+    .services-cards hr {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .services-cards h1 {
+        padding-top: 25px;
+    }
+}
+
 .services-cards .card a {
     --bs-btn-color: #fff;
     --bs-btn-bg: #92574d;
@@ -13,12 +42,4 @@
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #92574d;
     --bs-btn-disabled-border-color: #92574d;
-}
-
-.services-cards h4 {
-    color: #fff;
-    text-align: center;
-    margin-bottom: 1rem;
-    font-size: xx-large;
-    padding: 1rem;
 }

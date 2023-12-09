@@ -6,15 +6,36 @@
     text-align: center;
 }
 
-.map h4 {
-    color: #fff;
+.map h1 {
+    color: #92574d;
     text-align: center;
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
     font-size: xx-large;
-    padding: 1rem;
+    text-shadow: 2px 2px 2px rgba(92, 76, 76, 0.97);
+    padding-top: 15px;
+}
+
+.map hr {
+    color: #fff;
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
 }
 
 .map iframe {
     width: 100%;
     max-width: 720px;
+}
+
+@media (max-width: 992px) {
+    .map hr {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .map h1 {
+        padding-top: 25px;
+    }
 }

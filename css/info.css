@@ -4,6 +4,7 @@
     padding-bottom: 1rem;
     font-size: x-large;
     text-shadow: 2px 2px 2px rgba(92, 76, 76, 0.97);
+    padding-top: 15px;
 }
 
 .info-heading hr {
