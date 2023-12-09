@@ -3878,6 +3878,7 @@ fieldset:disabled .btn {
 }
 
 .dropdown-toggle::after {
+    color: #fff;
     display: inline-block;
     margin-left: .255em;
     vertical-align: .255em;
@@ -3912,7 +3913,7 @@ fieldset:disabled .btn {
     --bs-dropdown-link-hover-color: var(--bs-body-color);
     --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
     --bs-dropdown-link-active-color: #fff;
-    --bs-dropdown-link-active-bg: #0d6efd;
+    --bs-dropdown-link-active-bg: #fff;
     --bs-dropdown-link-disabled-color: var(--bs-tertiary-color);
     --bs-dropdown-item-padding-x: 1rem;
     --bs-dropdown-item-padding-y: 0.25rem;
@@ -4564,7 +4565,7 @@ fieldset:disabled .btn {
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-    color: var(--bs-navbar-active-color)
+    color: #92574d
 }
 
 .navbar-nav .dropdown-menu {
