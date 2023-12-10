@@ -53,3 +53,35 @@
         padding-top: 50px;
     }
 }
+
+.video {
+    text-align: center;
+}
+
+.video-text h1 {
+    color: #92574d;
+    font-size: x-large;
+    padding-bottom: 1rem;
+    text-shadow: 2px 2px 2px rgba(92, 76, 76, 0.97);
+    padding-top: 15px;
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.video-text h4 {
+    color: #fff;
+    font-size: large;
+    text-align: justify;
+    text-justify: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+
+.video-text hr {
+    color: #fff;
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+}
