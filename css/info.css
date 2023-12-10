@@ -72,11 +72,10 @@
 .video-text h4 {
     color: #fff;
     font-size: large;
-    text-align: justify;
-    text-justify: auto;
     margin-left: 1rem;
     margin-right: 1rem;
     padding: 1rem;
+    text-align: center;
 }
 
 .video-text hr {
