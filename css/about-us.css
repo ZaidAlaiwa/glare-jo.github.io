@@ -1,0 +1,69 @@
+.bg-fixed {
+    background-image: url('/assets/carousel/3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+}
+
+.glow {
+    display: inline-block;
+    position: relative;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.glow:hover {
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.7);
+}
+
+.brief {
+    align-items: center;
+}
+
+.brief img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 310px;
+}
+
+.brief p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: large;
+}
+
+.general-manager {
+    align-items: center;
+}
+
+.general-manager img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 310px;
+    border-radius: 100%;
+}
+
+.general-manager h3 {
+    text-align: left;
+    color: #fff;
+    font-size: large;
+    margin-left: 1rem;
+}
+
+.general-manager p {
+    text-align: justify;
+    text-justify: inter-word;
+    color: #fff;
+    font-size: medium;
+    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+    .hidden {
+        display: none;
+    }
+}
