@@ -31,6 +31,8 @@
 .brief p {
     text-align: justify;
     text-justify: inter-word;
+    color: #fff;
+    padding: 1rem;
     font-size: large;
 }
 
