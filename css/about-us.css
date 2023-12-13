@@ -36,8 +36,7 @@
 }
 
 .brief p {
-    text-align: justify;
-    text-justify: inter-word;
+    text-align: left;
     color: #fff;
     padding: 1rem;
     font-size: large;
@@ -64,8 +63,7 @@
 }
 
 .general-manager p {
-    text-align: justify;
-    text-justify: inter-word;
+    text-align: left;
     color: #fff;
     font-size: medium;
     padding: 1rem;
@@ -79,12 +77,12 @@
 
 @media (min-width: 950px) {
     .brief p {
-        margin-right: 5rem;
+        margin-right: 4rem;
     }
 }
 
 @media (min-width: 950px) {
     .general-manager p {
-        margin-right: 5rem;
+        margin-right: 4rem;
     }
 }
