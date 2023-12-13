@@ -8,8 +8,7 @@
 
 @media (max-width: 767px) {
     .bg-fixed {
-        background-size: auto;
-        background-position: top top;
+        background-image: url('/assets/black-bg.jpg');
     }
 }
 
