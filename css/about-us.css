@@ -1,9 +1,16 @@
 .bg-fixed {
     background-image: url('/assets/carousel/3.png');
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding-bottom: 50px;
-    height: 100%;
+}
+
+@media (max-width: 767px) {
+    .bg-fixed {
+        background-size: auto;
+        background-position: top top;
+    }
 }
 
 .glow {
