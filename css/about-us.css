@@ -6,7 +6,7 @@
     padding-bottom: 50px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .bg-fixed {
         background-color: #000;
         background-blend-mode: multiply;
