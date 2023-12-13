@@ -8,10 +8,8 @@
 
 @media (max-width: 767px) {
     .bg-fixed {
-        background-image: url('/assets/black-bg.jpg');
-        background-position: center center;
-        background-size: auto auto;
-        background-repeat: repeat;
+        background-color: #000;
+        background-blend-mode: multiply;
     }
 }
 
