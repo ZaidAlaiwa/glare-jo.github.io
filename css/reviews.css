@@ -1,0 +1,78 @@
+.reviews-main h1 {
+    color: #92574d;
+    text-align: left;
+    padding: 1rem;
+    font-size: xx-large;
+    text-shadow: 2px 2px 2px rgba(92, 76, 76, 0.97);
+}
+
+.reviews-main p {
+    text-align: left;
+    color: #fff;
+    padding: 1rem;
+    font-size: large;
+}
+
+.reviews-main hr {
+    color: #fff;
+    background-color: #fff;
+    width: 95%;
+    margin: auto;
+}
+
+.slider-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slider-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.review-box {
+    flex: 0 0 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.review-box:nth-child(odd) {
+    background-color: #fff;
+}
+
+.review-box:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.slider-nav {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    background-color: #92574d;
+}
+
+.slider-nav button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+    margin: 0 80px;
+    outline: none;
+    transition: color 0.3s ease-in-out;
+    color: #fff;
+}
+
+.slider-nav button:hover {
+    color: #000;
+}

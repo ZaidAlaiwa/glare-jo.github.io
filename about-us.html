@@ -25,6 +25,7 @@
         <link rel="stylesheet" href="css/map.css">
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/about-us.css">
+        <link rel="stylesheet" href="css/reviews.css">
     </head>
     <body style="background-color: #000;">
         <nav class="navbar navbar-expand-lg fixed-top nav-edit">
@@ -152,9 +153,54 @@
                 </div>
             </div>
 
+            <div class="container-fluid p-5">
+                <div class="row pt-5">
+                    <div class="col-12 col-md-6 reviews-main">
+                        <h1>Clients Reviews</h1>
+                        <hr>
+                        <p>Reviews of our customers are the best proofs that we are experts in the industry.</p>
+                    </div>
+
+                    <div class="col-12 col-md-6 slider-center">
+                        <div class="slider-container">
+                            <div class="slider-content">
+                                <div class="review-box">
+                                    <p>“Hi group! Me and 4 girlfriends just finished up an amazing trip to Jordan with the wonderful Yousef M Al Halleeq who I highly recommend.
+                                        Yousef is a legend - he helped us plan our itinerary, drove us around, patiently explained the incredible history,
+                                        took us to great restaurants and cracked a few hilarious jokes! He really made our trip special and it wouldn't have been half as good without him.
+                                        If anyone is looking for a driver please let me know and I'd be happy to share more! Happy exploring!”</p>
+                                    <p><strong>Kristen N Hill</strong></p>
+                                </div>
+                                <div class="review-box">
+                                    <p>“This trip was incredible. I am so glad I met Yousef Al halleeq, he was the kindest, most patient person ever.
+                                        He answered all of our questions and concerns. He was accommodating to our needs and was very friendly.
+                                        This was the best experience ever!”</p>
+                                    <p><strong>Nayla P</strong></p>
+                                </div>
+                                <div class="review-box">
+                                    <p>“Our experience was fantastic, beyond our expectations, two gentleman made us feel home, ,great people, great service.
+                                        Yousef AL halleeq sharif Hijazi are really representing their country, we will remember them forever, thank you guys”</p>
+                                    <p><strong>Ohana. Banana</strong></p>
+                                </div>
+                                <div class="review-box">
+                                    <p>“We had had hired Yousef in March 2023 for our 9 days trip. He was an absolute gem of a guy.<br>
+                                        Always on time, well conversant in English, knowledgeable and friendly. His mini-van was clean and in good condition with Wi-Fi.
+                                        Always going out of his way to make us comfortable. At the end of the trip we become good friends”</p>
+                                    <p><strong>Vipul Shah</strong></p>
+                                </div>
+                            </div>
+                            <div class="slider-nav">
+                                <button onclick="prevSlide()">Previous</button>
+                                <button onclick="nextSlide()">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="container-fluid">
                 <div class="map mb-1">
-                    <h1>Location</h4>
+                    <h1>Location</h1>
                     <hr>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3385.1989352553674!2d35.915275259648546!3d31.95549937412598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca1491fab6581%3A0x82a22f18e8db4e43!2sTHE%20OFFICE!5e0!3m2!1sar!2sjo!4v1701819193906!5m2!1sar!2sjo" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
@@ -200,8 +246,30 @@
         <div class="copyright">
             <p>Designed By <a href="https://www.linkedin.com/in/zaidalaiwa/" target="_blank" class="highlighted">Zaid Alaiwa</a> | Copyright &copy; <span id="currentYear"></span> <span class="highlighted">Glare Jordan</span> - All Rights Reserved.</p>
         </div>
-        <!-- Update the current year dynamically-->
+        <!-- Update the current year dynamically -->
         <script>document.getElementById('currentYear').innerText = new Date().getFullYear();</script>
+
+        <!-- Next, Previous Buttons for The Client Reviews Slider -->
+        <script>
+            const sliderContent = document.querySelector('.slider-content');
+            const totalSlides = document.querySelectorAll('.review-box').length;
+            let currentIndex = 0;
+    
+            function updateSlider() {
+                const translateXValue = -currentIndex * 100 + '%';
+                sliderContent.style.transform = `translateX(${translateXValue})`;
+            }
+    
+            function nextSlide() {
+                currentIndex = (currentIndex + 1) % totalSlides;
+                updateSlider();
+            }
+    
+            function prevSlide() {
+                currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+                updateSlider();
+            }
+        </script>
 
         <!-- Bootstrap and Popper CDN JS -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
