@@ -1,0 +1,26 @@
+.article {
+    text-align: center;
+}
+
+.article img {
+    width: 100%;
+    max-width: 720px;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.article p {
+    color: #fff;
+    text-align: center;
+    font-size: large;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+@media (min-width: 720px) {
+    .article p {
+        font-size: x-large;
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+}
