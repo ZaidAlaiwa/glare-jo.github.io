@@ -10,11 +10,6 @@
     font-size: x-large;
 }
 
-.nav-edit a:visited {
-    color: #fff;
-    text-decoration: none;
-}
-
 .nav-edit a:active {
     color: #92574d;
     text-decoration: none;
@@ -41,8 +36,4 @@
     .nav-edit ul {
         margin-left: -125px;
       }
-}
-
-.dropdown-item.active, .dropdown-item:active {
-    color: #92574d;
 }
