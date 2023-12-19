@@ -42,3 +42,7 @@
         margin-left: -125px;
       }
 }
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #92574d;
+}
